@@ -1,4 +1,4 @@
-import { Award, Clock, Gem, ShieldCheck } from "lucide-react";
+import { Award, Clock, Gem, ShieldCheck, TrendingUp } from "lucide-react";
 import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import CtaButton from "./CtaButton";
@@ -19,6 +19,11 @@ const reasons = [
     title: "Garantia de Satisfação",
     description: "Sua satisfação é nossa prioridade. Risco zero para você.",
   },
+  {
+    icon: TrendingUp,
+    title: "Clareza Imediata",
+    description: "Saiba exatamente quais são os próximos passos para alavancar sua carreira.",
+  },
 ];
 
 const ReasonsToAct: React.FC = () => {
@@ -32,7 +37,7 @@ const ReasonsToAct: React.FC = () => {
           O futuro da sua carreira não pode esperar.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-8 mb-16">
           {reasons.map((reason, index) => (
             <Card
               key={index}
@@ -40,7 +45,7 @@ const ReasonsToAct: React.FC = () => {
             >
               <CardHeader className="flex flex-row items-center space-x-4">
                 <reason.icon className="h-8 w-8 text-navy-dark group-hover:text-gold transition-colors duration-300" />
-                <CardTitle className="text-2xl font-serif text-navy-dark">
+                <CardTitle className="text-xl font-serif text-navy-dark">
                   {reason.title}
                 </CardTitle>
               </CardHeader>
