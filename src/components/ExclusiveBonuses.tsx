@@ -5,22 +5,10 @@ import CtaButton from "./CtaButton";
 
 const bonuses = [
   {
-    icon: BookOpen,
-    title: "Bônus 1: Biblioteca de Recursos",
-    description: "Acesso vitalício a materiais exclusivos sobre planejamento de residência e entrevistas.",
-    badge: "VITALÍCIO",
-  },
-  {
-    icon: Briefcase,
-    title: "Bônus 2: Módulo de Branding Médico",
-    description: "Aprenda a construir sua autoridade e presença digital de forma ética e profissional.",
-    badge: "ESTRATÉGICO",
-  },
-  {
-    icon: Users,
-    title: "Bônus 3: Comunidade Exclusiva",
-    description: "Networking com a elite de alunos e acesso direto às fundadoras para tirar dúvidas.",
-    badge: "NETWORKING",
+    icon: Zap,
+    title: "Bônus Exclusivo: Entrevistas com Médicos",
+    description: "Acesso a duas entrevistas gravadas com profissionais, contando sobre o dia-a-dia de duas especialidades médicas.",
+    badge: "CLAREZA",
   },
 ];
 
@@ -30,9 +18,6 @@ const BonusCard: React.FC<{ bonus: typeof bonuses[0]; index: number }> = ({
 }) => (
   <Card
     className="relative bg-navy-dark border-2 border-gold/50 shadow-2xl transition-all duration-500 hover:scale-[1.02] group"
-    style={{
-      transform: `translateY(${index * 10}px)`, // Efeito de empilhamento
-    }}
   >
     <CardHeader className="flex flex-row items-center justify-between">
       <div className="flex items-center space-x-4">
@@ -56,10 +41,10 @@ const ExclusiveBonuses: React.FC = () => {
     <section className="py-20 md:py-32 bg-navy overflow-hidden">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-5xl font-serif font-bold text-white text-center mb-4">
-          Bônus <span className="text-shimmer-gold">Exclusivos</span> para Sua Inscrição
+          Bônus <span className="text-shimmer-gold">Exclusivo</span> para Sua Inscrição
         </h2>
         <p className="text-xl text-white/70 text-center mb-16 max-w-3xl mx-auto font-sans">
-          Acelere seu sucesso com estes presentes de alto valor.
+          Acelere seu sucesso com este presente de alto valor.
         </p>
 
         <div className="max-w-4xl mx-auto space-y-8 mb-16">
@@ -70,7 +55,7 @@ const ExclusiveBonuses: React.FC = () => {
 
         <div className="text-center">
           <CtaButton size="lg" className="px-10 py-6 text-lg">
-            Garantir Meus Bônus
+            Garantir Meu Bônus
           </CtaButton>
         </div>
       </div>
