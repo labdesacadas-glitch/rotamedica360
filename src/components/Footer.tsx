@@ -1,4 +1,3 @@
-import { Facebook, Instagram, Linkedin } from "lucide-react";
 import React from "react";
 
 const Footer: React.FC = () => {
@@ -37,24 +36,13 @@ const Footer: React.FC = () => {
             </a>
           </nav>
 
-          {/* Social Icons */}
-          <div className="flex space-x-4 mt-6 md:mt-0">
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-light transition-colors duration-300">
-              <Instagram className="h-6 w-6" />
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-light transition-colors duration-300">
-              <Facebook className="h-6 w-6" />
-            </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-gold-light transition-colors duration-300">
-              <Linkedin className="h-6 w-6" />
-            </a>
-          </div>
+          {/* Social Icons (Removido) */}
         </div>
 
         {/* Copyright and Legal */}
         <div className="text-center text-sm text-white/50 font-sans">
           <p>&copy; {new Date().getFullYear()} Rota Médica 360. Todos os direitos reservados.</p>
-          <p className="mt-1">CNPJ: 00.000.000/0001-00 | Contato: contato@rotamedica360.com.br</p>
+          <p className="mt-1">Contato: rotamedica10@gmail.com</p>
         </div>
       </div>
     </footer>
