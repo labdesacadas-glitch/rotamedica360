@@ -7,7 +7,6 @@ import HowItWorks from "@/components/HowItWorks";
 import ReasonsToAct from "@/components/ReasonsToAct";
 import ExclusiveBonuses from "@/components/ExclusiveBonuses";
 import InvestmentSection from "@/components/InvestmentSection";
-import ScarcityCounter from "@/components/ScarcityCounter";
 import FaqSection from "@/components/FaqSection";
 import Footer from "@/components/Footer";
 import { MadeWithDyad } from "@/components/made-with-dyad";
@@ -21,11 +20,10 @@ const Index = () => {
         <IdentificationBlock />
         <StorytellingBlock />
         <HowItWorks />
-        {/* TestimonialsSlider removido */}
         <ReasonsToAct />
         <ExclusiveBonuses />
         <InvestmentSection />
-        <ScarcityCounter />
+        {/* ScarcityCounter removido */}
         <FaqSection />
       </main>
       <Footer />
