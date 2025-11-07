@@ -17,7 +17,7 @@ const faqItems = [
   {
     question: "Qual a diferença entre este programa e uma mentoria comum?",
     answer:
-      "O Rota Médica 360 é um diagnóstico vocacional completo, baseado em metodologias científicas e exclusivas, seguido de um plano de ação 360 e mentoria individualizada. Não é apenas conselho, é um mapa estratégico.",
+      "O Rota Médica 360 é um diagnóstico vocacional completo, baseado em metodologias científicas e exclusivas, seguido de um plano de ação 360. Não é apenas conselho, é um mapa estratégico.",
   },
   {
     question: "Quanto tempo dura o acesso ao conteúdo?",
