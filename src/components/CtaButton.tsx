@@ -20,19 +20,20 @@ const CtaButton: React.FC<CtaButtonProps> = ({
   className,
   ...props
 }) => {
-  const baseClasses = "uppercase font-bold tracking-widest transition-all duration-300";
+  // Adicionando tamanho de fonte responsivo: text-lg no mobile, md:text-xl no desktop
+  const baseClasses = "uppercase font-bold tracking-widest transition-all duration-300 text-lg md:text-xl h-auto py-4 px-8";
 
-  // Estilo primário ajustado para ser mais discreto, removendo o pulso forte.
+  // Estilo primário ajustado para ser mais discreto.
   const primaryClasses = cn(
     "bg-gradient-to-r from-gold-light to-gold-default text-navy-dark shadow-xl shadow-gold-default/30",
     "hover:from-gold-default hover:to-gold-light hover:shadow-gold-default/50",
     "relative overflow-hidden",
-    // Shimmer effect on hover (mantido, mas mais sutil sem o pulso constante)
+    // Shimmer effect on hover
     "before:content-[''] before:absolute before:inset-0 before:bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.5),transparent)] before:transition-transform before:duration-700 before:translate-x-[-100%] hover:before:translate-x-[100%]"
   );
 
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer">
+    <a href={href} target="_blank" rel="noopener noreferrer" className={cn(size === 'lg' && 'w-full md:w-auto')}>
       <Button
         size={size}
         className={cn(baseClasses, primaryClasses, className)}

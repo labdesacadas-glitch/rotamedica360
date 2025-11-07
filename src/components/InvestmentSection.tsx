@@ -46,7 +46,7 @@ const InvestmentSection: React.FC = () => {
               Ou em {installment}
             </p>
 
-            <CtaButton size="lg" className="px-16 py-8 text-2xl shadow-gold-default/80">
+            <CtaButton size="lg" className="shadow-gold-default/80">
               Quero Fazer o Rota Médica
             </CtaButton>
           </div>

@@ -66,7 +66,7 @@ const FaqSection: React.FC = () => {
         </div>
 
         <div className="text-center mt-16">
-          <CtaButton size="lg" className="px-10 py-6 text-lg">
+          <CtaButton size="lg">
             Quero Fazer o Rota Médica
           </CtaButton>
         </div>

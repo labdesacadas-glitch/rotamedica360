@@ -52,7 +52,7 @@ const ReasonsToAct: React.FC = () => {
         </div>
 
         <div className="text-center">
-          <CtaButton size="lg" className="px-10 py-6 text-lg">
+          <CtaButton size="lg">
             Faça o Seu Diagnóstico Agora
           </CtaButton>
         </div>
