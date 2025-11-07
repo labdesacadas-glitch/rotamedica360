@@ -27,12 +27,8 @@ const HeroSection: React.FC = () => {
         </p>
 
         <div className="flex flex-col items-center space-y-6">
-          <CtaButton size="lg" className="px-12 py-7 text-xl">
-            Quero Minha Rota Médica 360
-          </CtaButton>
-
-          {/* Video Embed */}
-          <div className="w-full max-w-4xl mt-12 relative rounded-xl overflow-hidden shadow-2xl border-2 border-gold/50 transition-all duration-500 hover:scale-[1.01]">
+          {/* Video Embed (Moved to the top of the content block) */}
+          <div className="w-full max-w-4xl relative rounded-xl overflow-hidden shadow-2xl border-2 border-gold/50 transition-all duration-500 hover:scale-[1.01]">
             <div className="relative" style={{ paddingBottom: '56.25%' /* 16:9 Aspect Ratio */ }}>
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
@@ -43,6 +39,11 @@ const HeroSection: React.FC = () => {
               ></iframe>
             </div>
           </div>
+          
+          {/* CTA Button (Moved below the video) */}
+          <CtaButton size="lg" className="px-12 py-7 text-xl mt-12">
+            Quero Minha Rota Médica 360
+          </CtaButton>
         </div>
       </div>
 
