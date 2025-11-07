@@ -30,7 +30,7 @@ const steps = [
   {
     number: 5,
     title: "Execução e Sucesso",
-    description: "Acompanhamento para garantir que você atinja seus objetivos profissionais.",
+    description: "7 dias de imersão e reflexão para planejar os próximos anos de sua carreira.",
     icon: Target,
   },
 ];
