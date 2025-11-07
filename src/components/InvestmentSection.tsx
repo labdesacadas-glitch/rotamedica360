@@ -3,9 +3,9 @@ import React from "react";
 import CtaButton from "./CtaButton";
 
 const InvestmentSection: React.FC = () => {
-  const originalPrice = "R$ 4.997,00";
-  const currentPrice = "R$ 2.997,00";
-  const installment = "12x de R$ 299,70";
+  const originalPrice = "R$ 597,00";
+  const currentPrice = "R$ 147,00";
+  const installment = "12x de R$ 15,20";
 
   return (
     <section id="investimento" className="py-20 md:py-32 bg-light-blue overflow-hidden">
