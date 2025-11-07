@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto text-center py-20 px-4">
-        <h1 className="text-4xl md:text-6xl lg:text-[64px] font-serif font-extrabold leading-tight mb-6">
+        <h1 className="text-4xl md:text-6xl lg:text-[64px] font-serif font-extrabold leading-tight mb-6 text-white">
           O <span className="text-shimmer-gold">Diagnóstico Vocacional</span> que
           Transforma sua Carreira Médica em <span className="text-shimmer-gold">360 Graus</span>
         </h1>
