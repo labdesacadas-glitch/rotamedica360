@@ -15,11 +15,6 @@ const reasons = [
     description: "Acesso a um diagnóstico vocacional médico exclusivo e cientificamente comprovado.",
   },
   {
-    icon: Gem,
-    title: "Exclusividade",
-    description: "2 Mentorias gravadas com as fundadoras, focadas no seu sucesso 360.",
-  },
-  {
     icon: ShieldCheck,
     title: "Garantia de Satisfação",
     description: "Sua satisfação é nossa prioridade. Risco zero para você.",
