@@ -30,12 +30,6 @@ const Footer: React.FC = () => {
               Investimento
             </a>
             <a
-              href="#depoimentos"
-              className="text-white/70 hover:text-gold transition-colors duration-300 mb-2 md:mb-0"
-            >
-              Depoimentos
-            </a>
-            <a
               href="#"
               className="text-white/70 hover:text-gold transition-colors duration-300 mb-2 md:mb-0"
             >

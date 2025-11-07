@@ -4,7 +4,6 @@ import HeroSection from "@/components/HeroSection";
 import IdentificationBlock from "@/components/IdentificationBlock";
 import StorytellingBlock from "@/components/StorytellingBlock";
 import HowItWorks from "@/components/HowItWorks";
-import TestimonialsSlider from "@/components/TestimonialsSlider";
 import ReasonsToAct from "@/components/ReasonsToAct";
 import ExclusiveBonuses from "@/components/ExclusiveBonuses";
 import InvestmentSection from "@/components/InvestmentSection";
@@ -22,7 +21,7 @@ const Index = () => {
         <IdentificationBlock />
         <StorytellingBlock />
         <HowItWorks />
-        <TestimonialsSlider />
+        {/* TestimonialsSlider removido */}
         <ReasonsToAct />
         <ExclusiveBonuses />
         <InvestmentSection />
