@@ -1,7 +1,9 @@
-import { ArrowDown, Play } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import React from "react";
 import CtaButton from "./CtaButton";
-import { Button } from "./ui/button";
+
+const VIDEO_ID = "whmdkEzLNJ0";
+const YOUTUBE_EMBED_URL = `https://www.youtube.com/embed/${VIDEO_ID}?autoplay=0&modestbranding=1&rel=0`;
 
 const HeroSection: React.FC = () => {
   return (
@@ -29,23 +31,18 @@ const HeroSection: React.FC = () => {
             Quero Minha Rota Médica 360
           </CtaButton>
 
-          {/* Video Placeholder */}
-          <div className="w-full max-w-4xl mt-12 relative group cursor-pointer rounded-xl overflow-hidden shadow-2xl border-2 border-gold/50 transition-all duration-500 hover:scale-[1.01]">
-            <img
-              src="/public/placeholder.svg"
-              alt="Vídeo de Vendas Rota Médica 360"
-              className="w-full h-auto object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-500"
-              style={{ aspectRatio: '16/9' }}
-            />
-            <div className="absolute inset-0 flex items-center justify-center bg-navy/50 group-hover:bg-navy/30 transition-colors duration-500">
-              <Button
-                variant="ghost"
-                className="h-20 w-20 rounded-full bg-gold/90 hover:bg-gold text-navy-dark transition-all duration-300 shadow-xl hover:scale-110"
-              >
-                <Play className="h-8 w-8 fill-current" />
-              </Button>
+          {/* Video Embed */}
+          <div className="w-full max-w-4xl mt-12 relative rounded-xl overflow-hidden shadow-2xl border-2 border-gold/50 transition-all duration-500 hover:scale-[1.01]">
+            <div className="relative" style={{ paddingBottom: '56.25%' /* 16:9 Aspect Ratio */ }}>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src={YOUTUBE_EMBED_URL}
+                title="Vídeo de Vendas Rota Médica 360"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
-            <p className="absolute bottom-4 left-4 text-white/90 text-sm font-sans">Assista ao vídeo de apresentação (12:30)</p>
+            <p className="absolute bottom-4 left-4 text-white/90 text-sm font-sans bg-navy-dark/50 px-2 py-1 rounded">Assista ao vídeo de apresentação (12:30)</p>
           </div>
         </div>
       </div>
