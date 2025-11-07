@@ -62,6 +62,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom Rota Médica Colors
+        navy: {
+          DEFAULT: "#0A1628",
+          dark: "#1A2942",
+        },
+        gold: {
+          DEFAULT: "#D4AF37",
+          light: "#FFD700",
+        },
+        'light-blue': {
+          DEFAULT: "#E8F4F8",
+        }
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -85,11 +97,26 @@ export default {
             height: "0",
           },
         },
+        // Custom keyframes for premium effects
+        shimmer: {
+          '0%': { backgroundPosition: '-1000px 0' },
+          '100%': { backgroundPosition: '1000px 0' },
+        },
+        pulse_soft: {
+          '0%, 100%': { transform: 'scale(1)', boxShadow: '0 0 0 0 rgba(212, 175, 55, 0.7)' },
+          '50%': { transform: 'scale(1.02)', boxShadow: '0 0 0 10px rgba(212, 175, 55, 0)' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        shimmer: "shimmer 3s infinite linear",
+        "pulse-soft": "pulse_soft 2s infinite cubic-bezier(0.4, 0, 0.6, 1)",
       },
+      fontFamily: {
+        serif: ['"Playfair Display"', 'serif'],
+        sans: ['"Inter"', 'sans-serif'],
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
