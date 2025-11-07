@@ -12,7 +12,7 @@ const features = [
   {
     icon: Zap,
     title: "Estratégia 360",
-    description: "Plano de carreira detalhado, do internato à residência e além.",
+    description: "7 Ferramentas integradas para te ajudar a decidir com clareza.",
   },
   {
     icon: Heart,
