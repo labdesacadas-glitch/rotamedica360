@@ -20,8 +20,9 @@ const CtaButton: React.FC<CtaButtonProps> = ({
   className,
   ...props
 }) => {
-  // Adicionando tamanho de fonte responsivo: text-lg no mobile, md:text-xl no desktop
-  const baseClasses = "uppercase font-bold tracking-widest transition-all duration-300 text-lg md:text-xl h-auto py-4 px-8";
+  // Ajuste para mobile: text-base (1rem) com padding py-3 px-6.
+  // Ajuste para desktop: md:text-xl (1.25rem) com padding py-4 px-8.
+  const baseClasses = "uppercase font-bold tracking-widest transition-all duration-300 text-base py-3 px-6 md:text-xl md:py-4 md:px-8 h-auto";
 
   // Estilo primário ajustado para ser mais discreto.
   const primaryClasses = cn(
