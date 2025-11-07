@@ -23,8 +23,8 @@ const steps = [
   },
   {
     number: 4,
-    title: "Mentoria Exclusiva",
-    description: "Sessões individuais para refinar sua estratégia e superar desafios.",
+    title: "Bônus Exclusivo",
+    description: "Entrevista gravada com médicos atuantes.",
     icon: Lightbulb,
   },
   {
