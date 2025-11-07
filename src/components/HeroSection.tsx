@@ -42,7 +42,6 @@ const HeroSection: React.FC = () => {
                 allowFullScreen
               ></iframe>
             </div>
-            <p className="absolute bottom-4 left-4 text-white/90 text-sm font-sans bg-navy-dark/50 px-2 py-1 rounded">Assista ao vídeo de apresentação (12:30)</p>
           </div>
         </div>
       </div>
