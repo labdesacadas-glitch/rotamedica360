@@ -22,7 +22,7 @@ const faqItems = [
   {
     question: "Quanto tempo dura o acesso ao conteúdo?",
     answer:
-      "O acesso à plataforma e aos materiais de apoio é vitalício. As sessões de mentoria individual têm duração definida no seu pacote de inscrição.",
+      "O acesso à plataforma e aos materiais de apoio é de 6 meses. As sessões de mentoria individual têm duração definida no seu pacote de inscrição.",
   },
   {
     question: "Existe garantia de satisfação?",
