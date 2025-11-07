@@ -42,7 +42,7 @@ const HeroSection: React.FC = () => {
           
           {/* CTA Button */}
           <CtaButton size="lg" className="px-12 py-7 text-xl mt-12">
-            Quero Minha Rota Médica 360
+            Faça o Seu Diagnóstico Agora
           </CtaButton>
         </div>
       </div>

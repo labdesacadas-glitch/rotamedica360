@@ -55,7 +55,7 @@ const ExclusiveBonuses: React.FC = () => {
 
         <div className="text-center">
           <CtaButton size="lg" className="px-10 py-6 text-lg">
-            Garantir Meu Bônus
+            Quero Fazer o Rota Médica
           </CtaButton>
         </div>
       </div>

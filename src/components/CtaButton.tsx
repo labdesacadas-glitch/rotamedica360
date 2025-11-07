@@ -22,12 +22,12 @@ const CtaButton: React.FC<CtaButtonProps> = ({
 }) => {
   const baseClasses = "uppercase font-bold tracking-widest transition-all duration-300";
 
+  // Estilo primário ajustado para ser mais discreto, removendo o pulso forte.
   const primaryClasses = cn(
-    "bg-gradient-to-r from-gold-light to-gold-default text-navy-dark shadow-2xl shadow-gold-default/50",
-    "hover:from-gold-default hover:to-gold-light hover:shadow-gold-default/70",
-    "animate-pulse-soft",
+    "bg-gradient-to-r from-gold-light to-gold-default text-navy-dark shadow-xl shadow-gold-default/30",
+    "hover:from-gold-default hover:to-gold-light hover:shadow-gold-default/50",
     "relative overflow-hidden",
-    // Shimmer effect on hover
+    // Shimmer effect on hover (mantido, mas mais sutil sem o pulso constante)
     "before:content-[''] before:absolute before:inset-0 before:bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.5),transparent)] before:transition-transform before:duration-700 before:translate-x-[-100%] hover:before:translate-x-[100%]"
   );
 

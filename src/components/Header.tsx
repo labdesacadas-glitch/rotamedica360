@@ -36,7 +36,7 @@ const Header: React.FC = () => {
             </a>
           ))}
           <CtaButton size="sm">
-            Inscreva-se Agora
+            Faça o Seu Diagnóstico
           </CtaButton>
         </nav>
 
@@ -66,7 +66,7 @@ const Header: React.FC = () => {
             ))}
             <div className="pt-4">
               <CtaButton className="w-full" onClick={() => setIsMenuOpen(false)}>
-                Inscreva-se Agora
+                Faça o Seu Diagnóstico Agora
               </CtaButton>
             </div>
           </nav>

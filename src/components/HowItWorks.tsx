@@ -82,7 +82,7 @@ const HowItWorks: React.FC = () => {
 
         <div className="text-center mt-16">
           <CtaButton size="lg" className="px-10 py-6 text-lg">
-            Começar Minha Transformação
+            Quero Fazer o Rota Médica
           </CtaButton>
         </div>
       </div>

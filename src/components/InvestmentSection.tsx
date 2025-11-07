@@ -47,7 +47,7 @@ const InvestmentSection: React.FC = () => {
             </p>
 
             <CtaButton size="lg" className="px-16 py-8 text-2xl shadow-gold-default/80">
-              Quero Minha Vaga Exclusiva
+              Quero Fazer o Rota Médica
             </CtaButton>
           </div>
         </div>

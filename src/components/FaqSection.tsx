@@ -27,7 +27,7 @@ const faqItems = [
   {
     question: "Existe garantia de satisfação?",
     answer:
-      "Sim. Oferecemos uma garantia incondicional de 7 dias. Se você não sentir que o programa é para você, devolvemos 100% do seu investimento.",
+    "Sim. Oferecemos uma garantia incondicional de 7 dias. Se você não sentir que o programa é para você, devolvemos 100% do seu investimento.",
   },
 ];
 
@@ -67,7 +67,7 @@ const FaqSection: React.FC = () => {
 
         <div className="text-center mt-16">
           <CtaButton size="lg" className="px-10 py-6 text-lg">
-            Ainda Tem Dúvidas? Fale Conosco
+            Quero Fazer o Rota Médica
           </CtaButton>
         </div>
       </div>
