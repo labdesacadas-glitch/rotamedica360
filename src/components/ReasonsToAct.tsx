@@ -17,7 +17,7 @@ const reasons = [
   {
     icon: Gem,
     title: "Exclusividade",
-    description: "Mentoria individualizada com as fundadoras, focada no seu sucesso 360.",
+    description: "2 Mentorias gravadas com as fundadoras, focadas no seu sucesso 360.",
   },
   {
     icon: ShieldCheck,
